@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+    <link rel='stylesheet'
+        href='https://cdn-uicons.flaticon.com/2.6.0/uicons-regular-straight/css/uicons-regular-straight.css'>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="shortcut icon" href="Assets/logo.png" type="image/x-icon">
+    <title>Spotify - Web Player: Music for everyone</title>
+    <style>
+
+    </style>
+</head>
+
+<body>
+    <header>
+        <a href="index.html" id="logo"><img src="Assets/LogoWhite.png" alt="logo" loading="lazy" width="32px"></a>
+        <div class="search">
+            <a href="#" class="home">
+                <i class="fa-solid fa-house"></i>
+            </a>
+            <div class="search_bar">
+                <div class="search">
+                    <label for="search"><i class="fa-solid fa-magnifying-glass"></i></label>
+                    <input type="text" placeholder="What do you want to play" id="search" name="search">
+                    <a href="#" class="browse"><i class="fa-solid fa-window-restore"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="profile_info">
+            <a href="#" class="install">
+                <i class="fa-regular fa-circle-down"></i>
+                <span>Install App</span>
+            </a>
+            <i class="fa-regular fa-bell"></i>
+            <img src="Assets/Profile.jpg" alt="profile-pic" class="profilepic" width="48px" loading="lazy">
+        </div>
+    </header>
+    <main>
+        <div class="sidebar library">
+            <div class="library_header">
+                <img src="Assets/library_icon.png" alt="library" class="library_icon">
+                <h3>Your Library</h3>
+                <i class="fi fi-rs-arrow-right"></i>
+                <i class="fi fi-rs-plus"></i>
+            </div>
+            <div class="library_create">
+                <div class="playlist">
+                    <p><b>Create your first playlist</b></p>
+                    <p><small>It's easy, we'll help you</small></p>
+                    <br>
+                    <button class="create">Create playlist</button>
+                </div>
+                <div class="podcast">
+                    <p><b>Let's find some podcasts to follow</b></p>
+                    <p><small>We'll keep you updated on new episodes</small></p>
+                    <br>
+                    <button class="create">Browse podcast</button>
+                </div>
+            </div>
+            <div class="library_footer">
+                <div class="footer_links">
+                    <a href="#"><small>Legal</small></a>
+                    <a href="#"><small>Safety&Privacy Center</small></a>
+                    <a href="#"><small>Privacy Pokicy</small></a>
+                    <a href="#"><small>Cookies</small></a>
+                    <a href="#"><small>About Ads</small></a>
+                    <a href="#"><small>Accessibility</small></a>
+                </div>
+                <a href="#" id="cookies">Cookies</a><br>
+                <button class="language">
+                    <i class="fi fi-rs-globe"></i>
+                    <span>English</span>
+                </button>
+            </div>
+        </div>
+        <div class="main_content">
+            <div class="card_section">
+                <div class="card_section_header">
+                    <h2>Trending songs</h2>
+                    <a href="#">Show all</a>
+                </div>
+                <div class="cards">
+                    <div class="card">
+                        <img src="Assets/trending songs/1.jpeg" alt="card image" class="card_img">
+                        <p class="card_title">Pal Pal</p>
+                        <p class="card_desc">Afusic, AliSoomroMusic</p>
+                    </div>
+                    <div class="card">
+                        <img src="Assets/trending songs/2.jpeg" alt="card image" class="card_img">
+                        <p class="card_title">Finding her</p>
+                        <p class="card_desc">Kushagra, Bharath, saaheal</p>
+                    </div>
+                    <div class="card">
+                        <img src="Assets/trending songs/3.jpeg" alt="card image" class="card_img">
+                        <p class="card_title">Supreme</p>
+                        <p class="card_desc">Shubh</p>
+                    </div>
+                    <div class="card">
+                        <img src="Assets/trending songs/4.jpeg" alt="card image" class="card_img">
+                        <p class="card_title">Koi Naa(From "Bhool Chuk Maaf")</p>
+                        <p class="card_desc">Tanishk Bagchi, Gifty, Harnoor, Shreya...</p>
+                    </div>
+                    <div class="card">
+                        <img src="Assets/trending songs/5.jpeg" alt="card image" class="card_img">
+                        <p class="card_title">Jinguchaa(From "Thug Life")</p>
+                        <p class="card_desc">A.R.Rahaman, Kamal Hassan, Vaishali...</p>
+                    </div>
+                    <div class="card">
+                        <img src="Assets/trending songs/6.jpeg" alt="card image" class="card_img">
+                        <p class="card_title">Khudaya Ishq(From "Abir Gulaal")</p>
+                        <p class="card_desc">Arijit Sinjh, Shilpa Rao, Amit Trivedi, Kumaar</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card_section">
+                <div class="card_section_header">
+                    <h2>Popular Artists</h2>
+                    <a href="#">Show all</a>
+                </div>
+                <div class="cards">
+                    <div class="card">
+                        <img src="Assets/Artists/1.jpeg" alt="card image" class="card_img artist">
+                        <p class="card_title">Arijit Singh</p>
+                        <p class="card_desc">Artist</p>
+                    </div>
+                    <div class="card">
+                        <img src="Assets/Artists/2.jpeg" alt="card image" class="card_img artist">
+                        <p class="card_title">Shreya Ghoshal</p>
+                        <p class="card_desc">Artist</p>
+                    </div>
+                    <div class="card">
+                        <img src="Assets/Artists/3.jpeg" alt="card image" class="card_img artist">
+                        <p class="card_title">A.R.Raheman</p>
+                        <p class="card_desc">Artist</p>
+                    </div>
+                    <div class="card">
+                        <img src="Assets/Artists/4.jpeg" alt="card image" class="card_img artist">
+                        <p class="card_title">Pritam</p>
+                        <p class="card_desc">Artist</p>
+                    </div>
+                    <div class="card">
+                        <img src="Assets/Artists/5.jpeg" alt="card image" class="card_img artist">
+                        <p class="card_title">Atif Aslam</p>
+                        <p class="card_desc">Artist</p>
+                    </div>
+                    <div class="card">
+                        <img src="Assets/Artists/6.jpeg" alt="card image" class="card_img artist">
+                        <p class="card_title">Diljit Dosanjh</p>
+                        <p class="card_desc">Artist</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card_section">
+                <div class="card_section_header">
+                    <h2>Featured Charts</h2>
+                    <a href="#">Show all</a>
+                </div>
+                <div class="cards">
+                    <div class="card">
+                        <img src="Assets/Featured/1.jpeg" alt="card image" class="card_img">
+                        <p class="card_desc">Your weekly update of the most played...</p>
+                    </div>
+                    <div class="card">
+                        <img src="Assets/Featured/2.jpeg" alt="card image" class="card_img">
+                        <p class="card_desc">Your weekly update of the most played...</p>
+                    </div>
+                    <div class="card">
+                        <img src="Assets/Featured/3.jpeg" alt="card image" class="card_img">
+                        <p class="card_desc">Your daily update of the most played...</p>
+                    </div>
+                    <div class="card">
+                        <img src="Assets/Featured/4.jpg" alt="card image" class="card_img">
+                        <p class="card_desc">Your daily update of the most played...</p>
+                    </div>
+                    <div class="card">
+                        <img src="Assets/Featured/5.jpg" alt="card image" class="card_img">
+                        <p class="card_desc">Your daily update of the most viral tracks...</p>
+                    </div>
+                    <div class="card">
+                        <img src="Assets/Featured/6.jpg" alt="card image" class="card_img">
+                        <p class="card_desc">Your daily update of the most viral tracks...</p>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-div">
+                <div class="footer-columns">
+                    <div class="footer_column">
+                        <span><b>Company</b></span>
+                        <span>About</span>
+                        <span>Jobs</span>
+                        <span>For the Record</span>
+                    </div>
+                    <div class="footer_column">
+                        <span><b>Communities</b></span>
+                        <span>For Artists</span>
+                        <span>Developers</span>
+                        <span>Advertising</span>
+                        <span>Investors</span>
+                        <span>Vendors</span>
+                    </div>
+                    <div class="footer_column">
+                        <span><b>Useful links</b></span>
+                        <span>Support</span>
+                        <span>Free Mobile App</span>
+                    </div>
+                    <div class="footer_column">
+                        <span><b>Soptify Plans</b></span><span>Premium Individual</span><span>Premium
+                            Duo</span><span>Premium Family</span><span>Premium Student</span><span>Spotify Free</span>
+                    </div>
+                    <div class="footer_column" id="socials">
+                        <div class="s_icon insta"><i class="fa-brands fa-instagram"></i></div>
+                        <div class="s_icon twitter"><i class="fa-brands fa-twitter"></i></div>
+                        <div class="s_icon facebook"><i class="fa-brands fa-facebook"></i></div>
+                    </div>
+                </div>
+                <div class="copy">&copy; 2025 Spotify AB</div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="song_info">
+            <img src="https://i.scdn.co/image/ab67616d000048513258e104db39aada82b2ee28" alt="Song Image"
+                class="song_img" loading="lazy" width="56px">
+            <p>Mere Lala Aaj<br><small>Subhamita Banerjee</small></p>
+            <i class="fa-solid fa-circle-check"></i>
+        </div>
+        <div class="music_control">
+            <div class="control_top">
+                <i class="fa-solid fa-shuffle"></i>
+                <i class="fa-solid fa-backward-step"></i>
+                <i class="fa-solid fa-circle-play" id="play"></i>
+                <i class="fa-solid fa-forward-step"></i>
+                <i class="fa-solid fa-repeat"></i>
+            </div>
+            <div class="control_bottom">
+                <small>1:50</small>
+                <div class="song_progress">
+                    <div class="progress"></div>
+                </div>
+                <small>4:36</small>
+            </div>
+        </div>
+        <div class="other_control">
+            <i class="fi fi-rs-play-alt"></i>
+            <i class="fi fi-rs-microphone-alt"></i>
+            <i class="fi fi-rs-album-collection"></i>
+            <i class="fi fi-rs-computer-speaker"></i>
+            <i class="fi fi-rs-volume"></i>
+            <div class="volumn_bar"></div>
+            <img src="Assets/screen.png" alt="">
+            <i class="fi fi-rs-expand"></i>
+        </div>
+    </footer>
+</body>
+
+</html>
